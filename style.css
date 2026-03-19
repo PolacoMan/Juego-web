@@ -1,0 +1,29 @@
+body {
+    background: radial-gradient(circle, #1a1a2e 0%, #020205 100%);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.game-container { text-align: center; }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 570px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #00e5ff;
+}
+
+canvas {
+    border: 5px solid #333;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    background-color: #000;
+}
+
+#lives { color: #ff0055; text-shadow: 0 0 10px #ff0055; }
